@@ -10,7 +10,7 @@ You will need to supply the following LogicMonitor credentials when configuring 
 * LM Account Name
 
 ### Deploying lambda using CloudFormation
-[![Launch Stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?stackName=lm-forwarder&templateURL=https://logicmonitor-logs-forwarder.s3.amazonaws.com/source/latest.yaml)
+[![Launch Stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?stackName=lm-forwarder&templateURL=https://logicmonitor-logs-forwarder.s3.amazonaws.com/source/latest.yaml&param_LMCompanyName=lmpoojachoudhary&param_LMTenantIdentifier=system.tenant.identifier)
 
 ### Deploying lambda using Terraform
 **Sample configuration**
